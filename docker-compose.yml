@@ -1,0 +1,10 @@
+s3:
+    build: ./
+    ports:
+        - "8888:8888"
+        - "9999:9999"
+    volumes:
+        - /data:/go/src/s3/uploads
+    expose:
+        - "8888"
+        - "9999"

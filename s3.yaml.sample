@@ -1,0 +1,12 @@
+
+UPLOADSERVER:
+    0.0.0.0:8888
+
+FILESERVER:
+    0.0.0.0:9999
+
+FILEACCESSHOST:
+    mad:9999
+
+PROTOCOL:
+    http
